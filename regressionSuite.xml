@@ -1,0 +1,14 @@
+<suite name="AllTestsSuite">
+    <test name="AuthenticationTests">
+        <classes>
+            <class name="SignInNegativeTest" />
+            <class name="SignInTest" />
+        </classes>
+    </test>
+    <test name="RegistrationTests">
+        <classes>
+            <class name="SignUpNegativeTest" />
+            <class name="SignUpTest" />
+        </classes>
+    </test>
+</suite>
